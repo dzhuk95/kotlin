@@ -8,6 +8,7 @@ import javax.persistence.Table
 class UserEntity(
         var firstName: String?,
         var lastName: String?,
+        var email: String?,
         var counts: Long = 0,
 ) : BaseEntity() {
 
